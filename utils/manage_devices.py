@@ -13,4 +13,5 @@ class ManageDevices:
         # 设备信息存放在字典当中，设备uuid,version,占用端口
         # 要使用到python命令行参数模块
         pass
-
+        # 获取uuid，截取端口号
+        # 返回设备信息列表

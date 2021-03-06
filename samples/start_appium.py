@@ -2,7 +2,7 @@ import pytest
 from appium import webdriver
 
 
-def start_appium():  # TODO(Leo.liu@italki.com): start appium
+def start_appium():  # TODO(Leo. @italki.com): start appium
     des = {
         "platformName": "android",
         "platformVersion": "7.1.2",
