@@ -1,0 +1,10 @@
+first:
+  platformName: android
+  platformVersion: 7.1.2
+  deviceName: Samsung Galaxy S8
+  appPackage: com.italki.app
+  appActivity: com.italki.app.onboarding.welcome.GetStartedActivity
+  udid: 127.0.0.1:62001
+  noReset: True
+  unicodeKeyboard: True
+  resetKeyboard: True
