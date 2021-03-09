@@ -5,7 +5,7 @@ from run_case import run_cases
 import time
 # 第一步：从设备池当中，获取当前连接的设备。若设备池为空，则无设备连接。
 devices = DevicesPool().devices_pool()
-platform_name = 'Android'
+platform_name = 'win'
 appium_server_path = 'C:\\Users\\stacy\\AppData\\Local\\Programs\\Appium'
 # 第二步：若设备池不为空，启动appium server.与设备个数对应。起始server端口为4723，每多一个设备，端口号默认+4
 if devices and platform_name and appium_server_path:
